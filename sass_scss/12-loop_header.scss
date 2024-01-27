@@ -1,0 +1,6 @@
+/* Sass file that creates H* tags */
+@for $var from 1 through 5 {
+    h#{$var}{
+        font-size: #{$var}px;
+    }
+}
